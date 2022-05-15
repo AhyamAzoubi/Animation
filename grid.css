@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+}
+.grid-container{
+  display: grid;
+  /*grid-template-columns: repeat(3,200px);*/
+  grid-template-columns: 300px 2fr 1fr ;
+}
+.grid-container > div {
+  padding:2rem ;
+  border: 1px solid dimgray;
+  background-color: tomato;
+  color: white;
+} 
+.grid-container2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px auto);
+}
+.grid-container2 > div {
+  padding: 2rem;
+
+border: 1px solid black;
+background-color: green;
+color: white;
+}

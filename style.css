@@ -1,0 +1,22 @@
+p {
+  line-height: 2;
+  font-size: 1.5rem;
+  /*color: antiquewhite;*/
+}
+/*body{
+  background-image: url(https://www.mein-schoener-garten.de/sites/default/files/styles/achor_navigation_s/public/sonnenblume-aufmacher-3519512-blp-pflanzenfreude.jpg?h=ba809569&itok=oEmXSMr1);
+  background-size: contain;
+  background-attachment:fixed;
+}*/
+.bg{
+  width: 40%;
+  height: 200px;
+  background-image: url(https://www.mein-schoener-garten.de/sites/default/files/styles/achor_navigation_s/public/sonnenblume-aufmacher-3519512-blp-pflanzenfreude.jpg?h=ba809569&itok=oEmXSMr1);
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 15px;
+}
+.bg:nth-of-type(2n){
+  margin-left: 300px;
+
+}
